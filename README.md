@@ -11,7 +11,7 @@ A small tool to easy transfer files between systems using SFTP - great for setti
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Prerequisites]
 - [Building]
@@ -21,19 +21,19 @@ A small tool to easy transfer files between systems using SFTP - great for setti
 
 ---
 
-## 🔧 Prerequisites
+## Prerequisites
 
 - **C compiler** (e.g. `gcc` or `clang`)  
 - **libssh** development headers & library
 - **GTK** development headers & library
 - **OpenSSL development headers & library** (usually pulled in by libssh)
 
-## 🏗️ Building
+## Building
 
 Compile directly with:
 gcc -o sshconnect sshconnect.c $(pkg-config --cflags --libs gtk+-3.0 libssh)
 
-## ▶️ Usage
+## Usage
 
 ./sshconnect
 
@@ -47,15 +47,13 @@ Enter the local filename to upload
 
 The file will be placed under upload/<filename> on the remote server.
 
-## 📄 License
+## License
 
 This project is released under the Apache 2.0 License. 
 
-## 📫 Contact
+## Contact
 
 Ram Sundar Radhakrishnan
-
-✉️ ramsundar289@gmail.com
 
 ## Known Issues
 
